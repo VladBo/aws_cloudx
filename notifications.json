@@ -1,0 +1,44 @@
+[
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 40,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "vlaad.bo@gmail.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    },
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 80,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "vlaad.bo@gmail.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    },
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 100,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "vlaad.bo@gmail.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    }
+]
